@@ -1,0 +1,32 @@
+{
+  "appName": {
+    "message": "YouTube Live Progress Bar Color"
+  },
+  "appDesc": {
+    "message": "เปลี่ยนสีแถบความคืบหน้า (Progress Bar) ของวิดีโอที่ดูแล้วในหน้า \"Streams\" ของ YouTube ให้เป็นสีที่คุณต้องการ"
+  },
+  "settingsTitle": {
+    "message": "ตั้งค่าส่วนขยาย"
+  },
+  "colorLabel": {
+    "message": "สีแถบความคืบหน้า (CSS background)"
+  },
+  "helpText": {
+    "message": "ตัวอย่าง: #ff0000 หรือ linear-gradient(90deg, #00ff00 0%, #008000 100%)"
+  },
+  "presetsLabel": {
+    "message": "เลือกสีด่วน"
+  },
+  "saveButton": {
+    "message": "บันทึกการตั้งค่า"
+  },
+  "statusSaved": {
+    "message": "บันทึกเรียบร้อยแล้ว!"
+  },
+  "authorLabel": {
+    "message": "ผู้เขียน"
+  },
+  "sourceCodeLabel": {
+    "message": "ซอร์สโค้ด"
+  }
+}

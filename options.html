@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Settings - YouTube Live Progress Bar Color</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            padding: 20px;
+            max-width: 400px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+        h1 { font-size: 1.5rem; margin-bottom: 20px; }
+        .setting-group { margin-bottom: 20px; }
+        label { display: block; margin-bottom: 8px; font-weight: bold; }
+        input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .help-text { font-size: 0.8rem; color: #666; margin-top: 4px; }
+        button {
+            background-color: #065fd4;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+        button:hover { background-color: #0556bf; }
+        .preset-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .preset-btn {
+            width: 30px;
+            height: 30px;
+            padding: 0;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            cursor: pointer;
+            transition: transform 0.1s;
+        }
+        .preset-btn:hover {
+            transform: scale(1.1);
+        }
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            font-size: 0.9rem;
+        }
+        .footer a { color: #065fd4; text-decoration: none; }
+        .footer a:hover { text-decoration: underline; }
+        #status {
+            margin-top: 10px;
+            color: green;
+            font-weight: bold;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1 data-i18n="settingsTitle">Extension Settings</h1>
+
+    <div class="setting-group">
+        <label for="color" data-i18n="colorLabel">Progress Bar Color (CSS background)</label>
+        <input type="text" id="color" placeholder="linear-gradient(90deg, #00ff00 0%, #008000 100%)">
+        <p class="help-text" data-i18n="helpText">Example: #ff0000 or linear-gradient(90deg, #00ff00 0%, #008000 100%)</p>
+    </div>
+
+    <div class="setting-group">
+        <label data-i18n="presetsLabel">Quick Presets</label>
+        <div class="preset-buttons">
+            <button type="button" class="preset-btn" data-color="#00ff00" style="background: #00ff00;"></button>
+            <button type="button" class="preset-btn" data-color="#ff0000" style="background: #ff0000;"></button>
+            <button type="button" class="preset-btn" data-color="#0000ff" style="background: #0000ff;"></button>
+            <button type="button" class="preset-btn" data-color="#ffff00" style="background: #ffff00;"></button>
+            <button type="button" class="preset-btn" data-color="#ff00ff" style="background: #ff00ff;"></button>
+            <button type="button" class="preset-btn" data-color="#ffa500" style="background: #ffa500;"></button>
+            <button type="button" class="preset-btn" data-color="linear-gradient(90deg, #00ff00 0%, #008000 100%)" style="background: linear-gradient(90deg, #00ff00 0%, #008000 100%);"></button>
+            <button type="button" class="preset-btn" data-color="linear-gradient(90deg, #ff0000 0%, #800000 100%)" style="background: linear-gradient(90deg, #ff0000 0%, #800000 100%);"></button>
+            <button type="button" class="preset-btn" data-color="linear-gradient(90deg, #0000ff 0%, #000080 100%)" style="background: linear-gradient(90deg, #0000ff 0%, #000080 100%);"></button>
+            <button type="button" class="preset-btn" data-color="linear-gradient(90deg, #ff00ff 0%, #800080 100%)" style="background: linear-gradient(90deg, #ff00ff 0%, #800080 100%);"></button>
+        </div>
+    </div>
+
+    <button id="save" data-i18n="saveButton">Save Settings</button>
+    <div id="status" data-i18n="statusSaved">Settings saved!</div>
+
+    <div class="footer">
+        <span data-i18n="authorLabel">Author</span>: <strong>kon3ko</strong><br>
+        <span data-i18n="sourceCodeLabel">Source Code</span>: <a href="https://github.com/kon3ko/yt-watch-bar" target="_blank">https://github.com/kon3ko/yt-watch-bar</a>
+    </div>
+
+    <script src="options.js"></script>
+</body>
+</html>

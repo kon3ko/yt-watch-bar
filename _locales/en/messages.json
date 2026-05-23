@@ -1,0 +1,32 @@
+{
+  "appName": {
+    "message": "YouTube Live Progress Bar Color"
+  },
+  "appDesc": {
+    "message": "Change watched progress bar color on YouTube streams page"
+  },
+  "settingsTitle": {
+    "message": "Extension Settings"
+  },
+  "colorLabel": {
+    "message": "Progress Bar Color (CSS background)"
+  },
+  "helpText": {
+    "message": "Example: #ff0000 or linear-gradient(90deg, #00ff00 0%, #008000 100%)"
+  },
+  "presetsLabel": {
+    "message": "Quick Presets"
+  },
+  "saveButton": {
+    "message": "Save Settings"
+  },
+  "statusSaved": {
+    "message": "Settings saved!"
+  },
+  "authorLabel": {
+    "message": "Author"
+  },
+  "sourceCodeLabel": {
+    "message": "Source Code"
+  }
+}
