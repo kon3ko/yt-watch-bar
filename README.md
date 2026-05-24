@@ -8,12 +8,11 @@
 เลือกติดตั้งตามรูปแบบที่คุณสะดวก:
 
 ### 1. รูปแบบ Chrome Extension (แนะนำ)
-- **ดาวน์โหลด:** [คลิกที่นี่เพื่อดาวน์โหลดส่วนขยาย](https://example.com/download-extension)
-- **วิธีติดตั้ง:**
-  1. กดเพิ่มใน Chrome
+- **ดาวน์โหลด:** [คลิกที่นี่เพื่อดาวน์โหลดส่วนขยาย](https://chromewebstore.google.com/detail/youtube-live-progress-bar/bidpbndabijiofopbppmnmfmkedghjjf)
+- **วิธีติดตั้ง:** กดเพิ่มใน Chrome
 
 ### 2. รูปแบบ Tampermonkey Script
-- **ดาวน์โหลด:** [คลิกที่นี่เพื่อติดตั้งสคริปต์](https://raw.githubusercontent.com/kon3ko/yt-watch-bar/youtube-live-progress-bar-color.user.js)
+- **ดาวน์โหลด:** [คลิกที่นี่เพื่อติดตั้งสคริปต์](https://github.com/kon3ko/yt-watch-bar/raw/refs/heads/main/youtube-live-progress-bar-color.user.js)
 - **ความต้องการ:** ต้องติดตั้งส่วนขยาย Tampermonkey ในเบราว์เซอร์ก่อน
 
 ## คุณสมบัติ
@@ -29,8 +28,6 @@
    - สีพื้นฐาน: `#ff0000` (สีแดง), `blue`, `rgb(0, 255, 0)`
    - สีไล่ระดับ: `linear-gradient(90deg, #00ff00 0%, #008000 100%)`
 4. กดปุ่ม **Save Settings**
-
-![หน้าตั้งค่า](placeholder-options.png)
 
 ## ผู้เขียน
 - **Author:** kon3ko
